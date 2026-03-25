@@ -1,0 +1,28 @@
+OOPS 
+solve real world problem
+data security 
+highly scalabale and reusable
+
+Object - characterstics and behavior
+eg- 
+------------CAR----------
+engine     start()
+brand      stop()
+model      accelarate()
+wheels     gearShift()
+
+CLASS - blueprint of Object
+class Car{
+    string brand;
+    string model;
+    void start(){}
+    void stop(){}
+}
+eg-
+Car * mycar = new car();
+
+pillars of OOPS
+abstraction - hide complexity and hide unnecessary details from client
+encapsulation - bind method and data together
+inheritance
+polymorphism
