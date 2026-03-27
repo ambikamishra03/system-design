@@ -22,7 +22,10 @@ eg-
 Car * mycar = new car();
 
 pillars of OOPS
-abstraction - hide complexity and hide unnecessary details from client
-encapsulation - bind method and data together
+abstraction - hide complexity and hide unnecessary details from client(eg- prog lang like c++/java)
+encapsulation - bind method and data together like a capsule, data security using access modifiers 
+public- can access from anywhere
+protected- accessed within the class and by child class
+private- only acessed within the class
 inheritance
 polymorphism
