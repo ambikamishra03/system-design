@@ -27,5 +27,7 @@ encapsulation - bind method and data together like a capsule, data security usin
 public- can access from anywhere
 protected- accessed within the class and by child class
 private- only acessed within the class
-inheritance
+inheritance - child inherit properties of parents
+
+
 polymorphism

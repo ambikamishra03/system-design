@@ -36,7 +36,7 @@ public:
     return;
     }
     currentGear=gear;
-    cout<<brand<<" "<<model<<" "<<": Shifted to gear - "<<currentGear<<endl;
+    cout<<brand<<" "<<model<<" "<<": Shifted to gear : "<<currentGear<<endl;
 
   }
   void accelerate(){
@@ -45,12 +45,12 @@ public:
     return;
     }
     currentSpeed +=20;
-    cout<<brand<<" "<<model<<" "<<": Accelerating to -"<<currentSpeed<<endl;
+    cout<<brand<<" "<<model<<" "<<": Accelerating to : "<<currentSpeed<<endl;
   }
   void Break(){
     currentSpeed -=20;
     if(currentSpeed < 0) currentSpeed=0;
-    cout<<brand<<" "<<model<<" "<<": Breaking! Speed is now -"<<currentSpeed<<"km/hr"<<endl; 
+    cout<<brand<<" "<<model<<" "<<": Breaking! Speed is now : "<<currentSpeed<<"km/hr"<<endl; 
   }
   void stopEngine(){
     isEngineOn=false;
