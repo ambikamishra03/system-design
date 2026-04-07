@@ -30,4 +30,8 @@ private- only acessed within the class
 inheritance - child inherit properties of parents
 
 
-polymorphism
+polymorphism - many forms 
+dynamic polymorphism
+      - method overridig - same virtual function inherited in child class , but used in different ways.
+static polymorphism
+    - method overloading - same name diff parameters
