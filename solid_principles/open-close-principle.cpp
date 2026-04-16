@@ -89,6 +89,5 @@ ShoppingCart* cart = new ShoppingCart();
  file->save(cart);
  cartInvoicePrinter* printer = new cartInvoicePrinter(cart);
  printer->printInvoice();
-
  return 0;
 }
